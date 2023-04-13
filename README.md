@@ -1,0 +1,2 @@
+# noscam
+Scam no
