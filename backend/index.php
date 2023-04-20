@@ -22,12 +22,10 @@ require_once "read.php";
     echo $_SESSION["name"] . "<br>" . $_SESSION["email"] . "<br>";
     echo "Connected database: " . $_SESSION["database"] . "<hr>";
 
-    $stmt = $_SESSION["rowArray"];
-    $stmt->execute();
 
-    if ($stmt->rowCount() > 0) {
+    if (count($stmt) > 0) {
         // Output the data for each row
-        while ($row = $stmt->fetch()) {
+        foreach ($stmt as $row) {
             $_SESSION["id"] = $row["id"];
             $_SESSION["name"] = $row["name"];
             $_SESSION["email"] = $row["email"];
