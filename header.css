@@ -5,5 +5,16 @@
     width: 100%;
     box-shadow: 10px 10px rgba(145, 3, 3, 0.763); 
 }
+#home{
+    position: relative;
+    left: 1%;
+    top: -10%;
+}
+#exit{
+    position: relative;
+    left: 88%;
+    top: -20%;
+}
 
-body {background-color: rgb(168, 0, 0);}
+
+body {background-color: rgba(172,1,2,255)}
