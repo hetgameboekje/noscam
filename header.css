@@ -1,6 +1,9 @@
 #headerbalk{
-    color: #000000;
+    position: relative;
+    background-color: rgb(200, 0, 0);
     height: 100px;
     width: 100%;
-    top: 100px;
+    box-shadow: 10px 10px rgba(145, 3, 3, 0.763); 
 }
+
+body {background-color: rgb(168, 0, 0);}
